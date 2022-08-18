@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6933A5C728AD6AA900E88D38 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933A5C628AD6AA900E88D38 /* APIProvider.swift */; };
+		69E3F17028ABCACB00AD1FCB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F16F28ABCACB00AD1FCB /* Tests_iOS.swift */; };
+		69E3F17228ABCACB00AD1FCB /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F17128ABCACB00AD1FCB /* Tests_iOSLaunchTests.swift */; };
+		69E3F17C28ABCACB00AD1FCB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F17B28ABCACB00AD1FCB /* Tests_macOS.swift */; };
+		69E3F17E28ABCACB00AD1FCB /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F17D28ABCACB00AD1FCB /* Tests_macOSLaunchTests.swift */; };
+		69E3F17F28ABCACB00AD1FCB /* EvangelistWeatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F15428ABCAC900AD1FCB /* EvangelistWeatherApp.xcdatamodeld */; };
+		69E3F18028ABCACB00AD1FCB /* EvangelistWeatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F15428ABCAC900AD1FCB /* EvangelistWeatherApp.xcdatamodeld */; };
+		69E3F18128ABCACB00AD1FCB /* EvangelistWeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F15628ABCAC900AD1FCB /* EvangelistWeatherAppApp.swift */; };
+		69E3F18228ABCACB00AD1FCB /* EvangelistWeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F15628ABCAC900AD1FCB /* EvangelistWeatherAppApp.swift */; };
+		69E3F18528ABCACB00AD1FCB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F15828ABCAC900AD1FCB /* Persistence.swift */; };
+		69E3F18628ABCACB00AD1FCB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F15828ABCAC900AD1FCB /* Persistence.swift */; };
+		69E3F18728ABCACB00AD1FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E3F15928ABCACB00AD1FCB /* Assets.xcassets */; };
+		69E3F18828ABCACB00AD1FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E3F15928ABCACB00AD1FCB /* Assets.xcassets */; };
+		69E3F19928ABCB0800AD1FCB /* LandingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F19828ABCB0800AD1FCB /* LandingListView.swift */; };
+		69E3F19B28ABCB1C00AD1FCB /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F19A28ABCB1C00AD1FCB /* LandingViewModel.swift */; };
+		69E3F19D28ABCD7400AD1FCB /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E3F19C28ABCD7400AD1FCB /* WeatherModel.swift */; };
+		69EE721028AE248A00328FB7 /* WeatherCoreDataModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE720E28AE248A00328FB7 /* WeatherCoreDataModel+CoreDataClass.swift */; };
+		69EE721128AE248A00328FB7 /* WeatherCoreDataModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE720F28AE248A00328FB7 /* WeatherCoreDataModel+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69E3F16C28ABCACB00AD1FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69E3F14F28ABCAC900AD1FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69E3F15D28ABCACB00AD1FCB;
+			remoteInfo = "EvangelistWeatherApp (iOS)";
+		};
+		69E3F17828ABCACB00AD1FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69E3F14F28ABCAC900AD1FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69E3F16328ABCACB00AD1FCB;
+			remoteInfo = "EvangelistWeatherApp (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6933A5C428AD390C00E88D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6933A5C628AD6AA900E88D38 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		69E3F15528ABCAC900AD1FCB /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		69E3F15628ABCAC900AD1FCB /* EvangelistWeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvangelistWeatherAppApp.swift; sourceTree = "<group>"; };
+		69E3F15828ABCAC900AD1FCB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		69E3F15928ABCACB00AD1FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69E3F15E28ABCACB00AD1FCB /* EvangelistWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvangelistWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E3F16428ABCACB00AD1FCB /* EvangelistWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvangelistWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E3F16628ABCACB00AD1FCB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		69E3F16B28ABCACB00AD1FCB /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E3F16F28ABCACB00AD1FCB /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		69E3F17128ABCACB00AD1FCB /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		69E3F17728ABCACB00AD1FCB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E3F17B28ABCACB00AD1FCB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		69E3F17D28ABCACB00AD1FCB /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		69E3F19828ABCB0800AD1FCB /* LandingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingListView.swift; sourceTree = "<group>"; };
+		69E3F19A28ABCB1C00AD1FCB /* LandingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
+		69E3F19C28ABCD7400AD1FCB /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		69EE720E28AE248A00328FB7 /* WeatherCoreDataModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherCoreDataModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		69EE720F28AE248A00328FB7 /* WeatherCoreDataModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherCoreDataModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69E3F15B28ABCACB00AD1FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E3F16128ABCACB00AD1FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E3F16828ABCACB00AD1FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E3F17428ABCACB00AD1FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6933A5BB28ACABA800E88D38 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6933A5C628AD6AA900E88D38 /* APIProvider.swift */,
+				69EE720E28AE248A00328FB7 /* WeatherCoreDataModel+CoreDataClass.swift */,
+				69EE720F28AE248A00328FB7 /* WeatherCoreDataModel+CoreDataProperties.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		69E3F14E28ABCAC900AD1FCB = {
+			isa = PBXGroup;
+			children = (
+				69E3F15328ABCAC900AD1FCB /* Shared */,
+				69E3F16528ABCACB00AD1FCB /* macOS */,
+				69E3F16E28ABCACB00AD1FCB /* Tests iOS */,
+				69E3F17A28ABCACB00AD1FCB /* Tests macOS */,
+				69E3F15F28ABCACB00AD1FCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69E3F15328ABCAC900AD1FCB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6933A5BB28ACABA800E88D38 /* Helpers */,
+				69E3F19728ABCAEE00AD1FCB /* LandingPage */,
+				69E3F15628ABCAC900AD1FCB /* EvangelistWeatherAppApp.swift */,
+				69E3F15828ABCAC900AD1FCB /* Persistence.swift */,
+				69E3F15928ABCACB00AD1FCB /* Assets.xcassets */,
+				69E3F15428ABCAC900AD1FCB /* EvangelistWeatherApp.xcdatamodeld */,
+				6933A5C428AD390C00E88D38 /* Info.plist */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		69E3F15F28ABCACB00AD1FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69E3F15E28ABCACB00AD1FCB /* EvangelistWeatherApp.app */,
+				69E3F16428ABCACB00AD1FCB /* EvangelistWeatherApp.app */,
+				69E3F16B28ABCACB00AD1FCB /* Tests iOS.xctest */,
+				69E3F17728ABCACB00AD1FCB /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69E3F16528ABCACB00AD1FCB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				69E3F16628ABCACB00AD1FCB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		69E3F16E28ABCACB00AD1FCB /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				69E3F16F28ABCACB00AD1FCB /* Tests_iOS.swift */,
+				69E3F17128ABCACB00AD1FCB /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		69E3F17A28ABCACB00AD1FCB /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				69E3F17B28ABCACB00AD1FCB /* Tests_macOS.swift */,
+				69E3F17D28ABCACB00AD1FCB /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		69E3F19728ABCAEE00AD1FCB /* LandingPage */ = {
+			isa = PBXGroup;
+			children = (
+				69E3F19828ABCB0800AD1FCB /* LandingListView.swift */,
+				69E3F19A28ABCB1C00AD1FCB /* LandingViewModel.swift */,
+				69E3F19C28ABCD7400AD1FCB /* WeatherModel.swift */,
+			);
+			path = LandingPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69E3F15D28ABCACB00AD1FCB /* EvangelistWeatherApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E3F18B28ABCACB00AD1FCB /* Build configuration list for PBXNativeTarget "EvangelistWeatherApp (iOS)" */;
+			buildPhases = (
+				69E3F15A28ABCACB00AD1FCB /* Sources */,
+				69E3F15B28ABCACB00AD1FCB /* Frameworks */,
+				69E3F15C28ABCACB00AD1FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EvangelistWeatherApp (iOS)";
+			productName = "EvangelistWeatherApp (iOS)";
+			productReference = 69E3F15E28ABCACB00AD1FCB /* EvangelistWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69E3F16328ABCACB00AD1FCB /* EvangelistWeatherApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E3F18E28ABCACB00AD1FCB /* Build configuration list for PBXNativeTarget "EvangelistWeatherApp (macOS)" */;
+			buildPhases = (
+				69E3F16028ABCACB00AD1FCB /* Sources */,
+				69E3F16128ABCACB00AD1FCB /* Frameworks */,
+				69E3F16228ABCACB00AD1FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EvangelistWeatherApp (macOS)";
+			productName = "EvangelistWeatherApp (macOS)";
+			productReference = 69E3F16428ABCACB00AD1FCB /* EvangelistWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69E3F16A28ABCACB00AD1FCB /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E3F19128ABCACB00AD1FCB /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				69E3F16728ABCACB00AD1FCB /* Sources */,
+				69E3F16828ABCACB00AD1FCB /* Frameworks */,
+				69E3F16928ABCACB00AD1FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69E3F16D28ABCACB00AD1FCB /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 69E3F16B28ABCACB00AD1FCB /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		69E3F17628ABCACB00AD1FCB /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E3F19428ABCACB00AD1FCB /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				69E3F17328ABCACB00AD1FCB /* Sources */,
+				69E3F17428ABCACB00AD1FCB /* Frameworks */,
+				69E3F17528ABCACB00AD1FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69E3F17928ABCACB00AD1FCB /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 69E3F17728ABCACB00AD1FCB /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69E3F14F28ABCAC900AD1FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					69E3F15D28ABCACB00AD1FCB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					69E3F16328ABCACB00AD1FCB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					69E3F16A28ABCACB00AD1FCB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 69E3F15D28ABCACB00AD1FCB;
+					};
+					69E3F17628ABCACB00AD1FCB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 69E3F16328ABCACB00AD1FCB;
+					};
+				};
+			};
+			buildConfigurationList = 69E3F15228ABCAC900AD1FCB /* Build configuration list for PBXProject "EvangelistWeatherApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69E3F14E28ABCAC900AD1FCB;
+			productRefGroup = 69E3F15F28ABCACB00AD1FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69E3F15D28ABCACB00AD1FCB /* EvangelistWeatherApp (iOS) */,
+				69E3F16328ABCACB00AD1FCB /* EvangelistWeatherApp (macOS) */,
+				69E3F16A28ABCACB00AD1FCB /* Tests iOS */,
+				69E3F17628ABCACB00AD1FCB /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69E3F15C28ABCACB00AD1FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E3F18728ABCACB00AD1FCB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E3F16228ABCACB00AD1FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E3F18828ABCACB00AD1FCB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E3F16928ABCACB00AD1FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E3F17528ABCACB00AD1FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69E3F15A28ABCACB00AD1FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E3F18128ABCACB00AD1FCB /* EvangelistWeatherAppApp.swift in Sources */,
+				6933A5C728AD6AA900E88D38 /* APIProvider.swift in Sources */,
+				69E3F19928ABCB0800AD1FCB /* LandingListView.swift in Sources */,
+				69EE721128AE248A00328FB7 /* WeatherCoreDataModel+CoreDataProperties.swift in Sources */,
+				69E3F18528ABCACB00AD1FCB /* Persistence.swift in Sources */,
+				69E3F19B28ABCB1C00AD1FCB /* LandingViewModel.swift in Sources */,
+				69E3F17F28ABCACB00AD1FCB /* EvangelistWeatherApp.xcdatamodeld in Sources */,
+				69EE721028AE248A00328FB7 /* WeatherCoreDataModel+CoreDataClass.swift in Sources */,
+				69E3F19D28ABCD7400AD1FCB /* WeatherModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E3F16028ABCACB00AD1FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E3F18228ABCACB00AD1FCB /* EvangelistWeatherAppApp.swift in Sources */,
+				69E3F18628ABCACB00AD1FCB /* Persistence.swift in Sources */,
+				69E3F18028ABCACB00AD1FCB /* EvangelistWeatherApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E3F16728ABCACB00AD1FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E3F17228ABCACB00AD1FCB /* Tests_iOSLaunchTests.swift in Sources */,
+				69E3F17028ABCACB00AD1FCB /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E3F17328ABCACB00AD1FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E3F17E28ABCACB00AD1FCB /* Tests_macOSLaunchTests.swift in Sources */,
+				69E3F17C28ABCACB00AD1FCB /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69E3F16D28ABCACB00AD1FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69E3F15D28ABCACB00AD1FCB /* EvangelistWeatherApp (iOS) */;
+			targetProxy = 69E3F16C28ABCACB00AD1FCB /* PBXContainerItemProxy */;
+		};
+		69E3F17928ABCACB00AD1FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69E3F16328ABCACB00AD1FCB /* EvangelistWeatherApp (macOS) */;
+			targetProxy = 69E3F17828ABCACB00AD1FCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69E3F18928ABCACB00AD1FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69E3F18A28ABCACB00AD1FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		69E3F18C28ABCACB00AD1FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/ragulml/Documents/Personal/Sample/EvangelistWeatherApp/Shared/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocky.test.EvangelistWeatherApp;
+				PRODUCT_NAME = EvangelistWeatherApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69E3F18D28ABCACB00AD1FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/ragulml/Documents/Personal/Sample/EvangelistWeatherApp/Shared/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocky.test.EvangelistWeatherApp;
+				PRODUCT_NAME = EvangelistWeatherApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69E3F18F28ABCACB00AD1FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocky.test.EvangelistWeatherApp;
+				PRODUCT_NAME = EvangelistWeatherApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		69E3F19028ABCACB00AD1FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocky.test.EvangelistWeatherApp;
+				PRODUCT_NAME = EvangelistWeatherApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		69E3F19228ABCACB00AD1FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocky.test.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EvangelistWeatherApp (iOS)";
+			};
+			name = Debug;
+		};
+		69E3F19328ABCACB00AD1FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocky.test.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EvangelistWeatherApp (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69E3F19528ABCACB00AD1FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocky.test.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "EvangelistWeatherApp (macOS)";
+			};
+			name = Debug;
+		};
+		69E3F19628ABCACB00AD1FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocky.test.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "EvangelistWeatherApp (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69E3F15228ABCAC900AD1FCB /* Build configuration list for PBXProject "EvangelistWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E3F18928ABCACB00AD1FCB /* Debug */,
+				69E3F18A28ABCACB00AD1FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E3F18B28ABCACB00AD1FCB /* Build configuration list for PBXNativeTarget "EvangelistWeatherApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E3F18C28ABCACB00AD1FCB /* Debug */,
+				69E3F18D28ABCACB00AD1FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E3F18E28ABCACB00AD1FCB /* Build configuration list for PBXNativeTarget "EvangelistWeatherApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E3F18F28ABCACB00AD1FCB /* Debug */,
+				69E3F19028ABCACB00AD1FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E3F19128ABCACB00AD1FCB /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E3F19228ABCACB00AD1FCB /* Debug */,
+				69E3F19328ABCACB00AD1FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E3F19428ABCACB00AD1FCB /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E3F19528ABCACB00AD1FCB /* Debug */,
+				69E3F19628ABCACB00AD1FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69E3F15428ABCAC900AD1FCB /* EvangelistWeatherApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69E3F15528ABCAC900AD1FCB /* Shared.xcdatamodel */,
+			);
+			currentVersion = 69E3F15528ABCAC900AD1FCB /* Shared.xcdatamodel */;
+			path = EvangelistWeatherApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69E3F14F28ABCAC900AD1FCB /* Project object */;
+}
